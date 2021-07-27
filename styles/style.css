@@ -1,0 +1,72 @@
+
+
+body{
+
+    background-color:white;
+}
+
+.container{
+background-color:grey;
+height:100px;
+text-align:center;
+
+}
+#menu{
+
+    margin-top:-3%;
+}
+
+#separator{
+
+    color:white;
+
+}
+
+/* keeps cyan color when selected*/
+.topMenu:focus{
+
+    color:cyan;
+    text-decoration: none;
+    
+}
+
+ .topMenu:hover{
+
+    color:cyan;
+    text-decoration: none;
+}
+/*non-selected keep white color*/
+.topMenu{
+    color:white;
+    
+
+}
+/* adjusting the search icon to fit the search box */
+.btn{
+    margin-left:-39px;
+    color:transparent;
+    
+}
+/* adjusting logo icon to fit the div */
+
+.logo{
+    height:190px;
+    border:none;
+    margin-top:-24%;
+    width:85%;
+    
+    
+}
+
+/* adjusting the account image to fit the div */
+
+ .account{
+    height:120px;
+    border:none;
+    margin-top:-38%;
+    width:101%;
+    
+} 
+
+
+

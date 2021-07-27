@@ -1,0 +1,342 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+
+    <title>DML_ROOMS_EXAMPLES</title>
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- from folder -->
+
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <link rel="stylesheet" href="styles/mainbody-style.css" type="text/css">
+
+  </head>
+  <body onload="hideAllDivTags()" > <!--Will hide all options when the page loads-->
+    
+     <!-- Top menu -->
+
+    <div class="container" style="width:100%; font-size:small; ">
+        <div id=menu>
+        <ul class="nav navbar">
+            
+          
+                
+               <a href="http://www.daytonmetrolibrary.org/"><img class="logo" src="images/logo.png"></a>
+            
+
+    <li ><a class="topMenu" href="#">HOME</a></li><span id="separator">|</span>
+    <li ><a class="topMenu" href="#">ABOUT US</a></li><span id="separator">|</span>
+    <li ><a class="topMenu" href="#">LOCATIONS</a></li><span id="separator">|</span>
+    <li ><a class="topMenu" href="#">GET INVOLVED</a></li>
+    
+   <!-- search icon obtained from https://fonts.google.com/icons?icon.query=search -->
+
+    <form class="navbar-form">
+        <div class="inputDiv">
+          
+                <input type="search" placeholder="SEARCH SITE" class="inputData">
+                <button class="btn"><img src="Icons/black-24dp/1x/outline_search_black_24dp.png"></button>
+            </div>
+          </form>
+          <a href="https://pac.daytonmetrolibrary.org/polaris/logon.aspx"> <img class="account" src="images/account.png"></a>
+  
+    </ul>
+</div>
+    
+</div>
+<!-- Main body -->
+
+<div class="container" style="height:20px; background-color:white" >
+
+
+    <div id=menu style="width:80%; font-size:70%;font-weight:800; background-color:white; margin-left:255px; margin-top: px; " >
+    <ul class="nav navbar" style="margin-top: 52px;">
+       
+
+
+    <li ><a class="secondMenu" href="#">BOOKS MOVIES MUSIC</a></li><span id="separator2">|</span>
+<li ><a class="secondMenu" href="#">PROGRAMS+EVENTS</a></li><span id="separator2">|</span>
+<li ><a class="secondMenu" href="#">NEWS</a></li><span id="separator2">|</span>
+<li ><a class="secondMenu" href="#">JUST FOR YOU</a></li><span id="separator2">|</span>
+<li ><a class="secondMenu" href="#">RESEARCH TOOLS</a></li><span id="separator2">|</span>
+<li ><a class="secondMenu" href="#">USE YOUR LIBRARY</a></li>
+
+
+</ul>
+
+
+</div>
+
+
+</div>
+
+<div class="container" style="height:5px; background-color:rgb(15, 174, 223); margin-top:4px"></div> <!-- horizontal cyan line-->
+<div class="container" style="height:1100px; background-image: url('images/Screen.png')">
+<div class="container" style="background-color:hsl(120, 20%, 99%); margin-left: 15px; height:1129px"> <!--Main body container-->
+    <br>
+    <ul class="nav navbar" style="font-size: 10px; color:blue;width: 300px;">
+<li><a href="#"> HOME</a></li><span id="separator2">/</span>
+<li><a href="#">LOCATIONS</a></li><span id="separator2">/</span>
+<li><a href="#">ROOMS FOR COMMUNITY USE</a></li>
+
+    </ul>
+<hr>
+
+    <div class="float-left"><img src="images/top.png" alt="" id="imag1"></div>
+    <div class="float-right"><h4 id="title">RESERVING SPACE AT YOUR LIBRARY</h4>
+        <br>
+        <p class="parag"> Your Dayton Metro Library is the place to meet!<br>
+             There are performance spaces, gathering places, <br>conference rooms and study areas.
+            Whether you need<br> a small, quiet space for study, a larger room for collaboration,<br>
+             or a venue to host an important event - the <br>right size space is available at your Dayton
+             Metro Library.<br><br>
+
+             <h id="subtitle">YOUR DAYTON METRO LIBRARY:</h>
+             <br>
+             <ul>
+                 <li>Has 19 Libraries across Montgomery Co.</li>
+                 <li>Provides over 60 unique spaces for public use</li>
+                 <li>Rooms  vary in capacity from 2 - 300 people</li>
+                 <li>Something else here.....</li>
+             </ul>
+            </p>
+    
+    </div>
+
+
+   
+
+    <br> <br>
+    
+    <div style="background-color:white;height:233px; margin-top:300px">
+    
+    
+
+   
+        <div style="width: 600px; float: left; margin-top:13px; color:rgb(15, 174, 223);font-size:24px"> 
+            
+         
+
+            TELL US WHAT YOU'RE LOOKING FOR: 
+
+
+
+
+            </div>
+
+        <div style="margin-left: 600px;">
+            
+            <select id="optin" onchange="selectedOption(this.options[this.options.selectedIndex].value)"> <!--Gets selected option value-->
+            
+            <option value="space"  >I'm looking for a small space where I can study or tutor (up to 6 people). </option>
+            <option value="place" >I'm looking for a place where my group can meet and collaborate.</option>
+            <option value="venue" > I'm looking for a performance venue (lecture/music or dance/film screening).</option>
+            <option value="conference">I'm looking for a larger conference venue (multiple rooms are needed).</option>
+            <option value="partnership" >I'm looking for a longer-term partnership with the library(1-6 months).</option>
+            <option value="event">I'm looking for space to hold a private event (party/wedding/reception).</option>
+            <option value="recording" >I'm want to use audio/video recording and editing space and/or equipment.</option>
+       
+    
+            </select>
+        
+        </div>
+
+
+
+</div>
+
+<!--The first screen -- space -->
+
+<div style="background:white; width:1222px; height: 43%; margin-top:-123px; "; id="space"> 
+    
+    <h3 style="background-color:rgb(115, 128, 0);color:white; margin-left:-10px;padding:10px" class="float-left">QUADS + GROUP STUDY ROOMS</h3>
+
+    <img class="float-right" src="images/quads.png" alt="" style="width:700px">
+<br><br>
+    <div class="float-left"  style="padding: 5px; font-size:33px">Quads(Capacity 4)
+    <br>
+   <h5 style="color:red"> Click here to see which Libraries have Quads.</h5>
+    </div>
+    <div class="float-left"  style="padding: 5px; font-size:33px">Quads(Capacity 6-8)
+        <br>
+       <h5 style="color:red"> Click here to see which Libraries have Study Rooms.</h5>
+        </div>
+
+        <br><br>
+
+        <div class="float-left" style="font-size:10px; padding:4%"><br>No fee for use. Call the Ask Me Line at 937 463 2665 to reserve in advance,<br> or sign up for available space upon arrival.</div>
+
+    
+
+
+</div>
+
+<!-- second screen -- Meeting rooms --> 
+
+<div style="background:white; width:1222px; height: 37%; margin-top:-123px;" id="place">
+
+    <h3 style="background-color:rgb(115, 128, 0);color:white; margin-left:-10px;padding:10px" class="float-left">ROOMS + GROUP STUDY ROOMS</h3>
+
+    <img class="float-right" src="images/room1.jpg" alt="" style="width:700px">
+<br><br>
+    <div class="float-left"  style="padding: 5px; font-size:33px">Meeting Rooms(Capacity 25)
+    <br>
+   <h5 style="color:red"> Click here to see which Libraries have Rooms.</h5>
+    </div>
+    <div class="float-left"  style="padding: 5px; font-size:33px">ROOMS(Capacity 12-18)
+        <br>
+       <h5 style="color:red"> Click here to see which Libraries have Meeting Rooms.</h5>
+        </div>
+
+        <br><br>
+
+        <div class="float-left" style="font-size:10px; padding:4%"><br>No fee for use. Call the Ask Me Line at 937 463 2665 to reserve in advance,<br> or sign up for available space upon arrival.</div>
+
+
+</div>
+
+<!-- Third screen -- venue rooms --> 
+
+ <div style="background:white; width:1222px; height: 39%; margin-top:-123px;"; id="venue">
+
+    <h3 style="background-color:rgb(115, 128, 0);color:white; margin-left:-10px;padding:10px" class="float-left">PERFORMANCE + VENUE</h3>
+
+    <img class="float-right" src="images/venues.jpg" alt="" style="width:700px">
+<br><br>
+    <div class="float-left"  style="padding: 5px; font-size:33px">Venue Room(Capacity 105)
+    <br>
+   <h5 style="color:red"> Click here to see which Libraries have Rooms.</h5>
+    </div>
+    <div class="float-left"  style="padding: 5px; font-size:33px">ROOMS(Capacity 45-95)
+        <br>
+       <h5 style="color:red"> Click here to see which Libraries have Venue Rooms.</h5>
+        </div>
+
+        <br><br>
+
+        <div class="float-left" style="font-size:10px; padding:4%"><br>No fee for use Call the Ask Me Line at 937 463 2665 to reserve in advance,<br> or sign up for available space upon arrival.</div>
+
+
+
+</div>
+
+<!-- Fourth screen -- Conference room --> 
+
+ <div style="background:white; width:1222px; height: 39%; margin-top:-123px;"; id="conference">
+
+    <h3 style="background-color:rgb(115, 128, 0);color:white; margin-left:-10px;padding:10px" class="float-left">Conference + VENUE</h3>
+
+    <img class="float-right" src="images/conference.jpg" alt="" style="width:600px">
+<br><br>
+    <div class="float-left"  style="padding: 5px; font-size:33px">Venue Room(Capacity 105)
+    <br>
+   <h5 style="color:red"> Click here to see which Libraries have Rooms.</h5>
+    </div>
+    <div class="float-left"  style="padding: 5px; font-size:23px"> CONFERENCE ROOMS (Capacity 45-95)
+        <br>
+       <h5 style="color:red"> Click here to see which Libraries have Conference Rooms.</h5>
+        </div>
+
+        <br><br>
+
+        <div class="float-left" style="font-size:10px; padding:4%"><br>No fee for use Call the Ask Me Line at 937 463 2665 to reserve in advance,<br> or sign up for available space upon arrival.</div>
+
+
+    
+
+</div>
+
+<!-- Fith screen -- Partnership room --> 
+
+ <div style="background:white; width:1222px; height: 37%; margin-top:-123px;" id="partnership">
+
+    <h3 style="background-color:rgb(115, 128, 0);color:white; margin-left:-10px;padding:10px" class="float-left">LONG-TERM PARTNERSHIP</h3>
+
+    <img class="float-right" src="images/patnership.png" alt="" style="width:600px">
+<br><br>
+    <div class="float-left"  style="padding: 5px; font-size:33px">PARTNER WITH LIBRARY
+    <br>
+   <h5 style="color:red"> Looking For Partnership?</h5>
+    </div>
+    
+
+        <br><br>
+
+        <div class="float-left" style="font-size:10px; padding:4%"><br>No fee for use. Call the Ask Me Line at 937 463 2665 to reserve in advance,<br> or sign up for available space upon arrival.</div>
+
+
+
+</div>
+
+<!-- Sixth screen -- Private Event --> 
+
+ <div style="background:white; width:1222px; height: 37%; margin-top:-123px;" id="event">
+
+    <h3 style="background-color:rgb(115, 128, 0);color:white; margin-left:-10px;padding:10px" class="float-left">EVENTS</h3>
+
+    <img class="float-right" src="images/event.jpg" alt="" style="width:600px">
+<br><br>
+    <div class="float-left"  style="padding: 5px; font-size:33px">PRIVATE EVENT
+    <br>
+   <h5 style="color:red"> Hold Private Event Here.</h5>
+    </div>
+    
+
+        <br><br>
+
+        <div class="float-left" style="font-size:10px; padding:4%"><br>No fee for use. Call the Ask Me Line at 937 463 2665 to reserve in advance,<br> or sign up for available space upon arrival.</div>
+
+
+
+</div>
+
+<!-- Seven screen -- use audio/video and more ... --> 
+
+ <div style="background:white; width:1222px; height: 37%; margin-top:-123px;" id="recording">
+
+ <h3 style="background-color:rgb(115, 128, 0);color:white; margin-left:-10px;padding:10px" class="float-left">USAGE OF AUDIO/VIDEO RECORDING AND EDITING EQUIPMENT</h3>
+
+ <img class="float-right" src="images/electronic.jpg" alt="" style="width:600px">
+<br><br>
+ <div class="float-left"  style="padding: 5px; font-size:33px">EQUIPMENT
+ <br>
+<h5 style="color:red">ELECTRONIC EQUIPMENTS ARE AVAILABLE.</h5>
+ </div>
+ 
+
+     <br><br>
+
+     <div class="float-left" style="font-size:10px; padding:4%"><br>No fee for use. Call the Ask Me Line at 937 463 2665 to reserve in advance,<br> or sign up for available space upon arrival.</div>
+
+ </div>
+
+
+
+</div>
+
+
+
+<footer>
+    <h style="color:rgb(15, 174, 223); margin-left: -685px; font-weight:600">LIBRARY ROOM POLICIES</h>
+    <div style="color:red"><p>Community Meeting Room Policy  |  Events Policy  |  Tutor, Quads, Group Study and Conference Rooms  |  Rooms by Location</p> <br> </div></footer>
+
+
+  
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <script src="logic/display.js"></script>
+  
+
+  </body>
+</html>

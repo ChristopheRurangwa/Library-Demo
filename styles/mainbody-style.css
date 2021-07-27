@@ -1,0 +1,47 @@
+
+
+.col-md-6,#title{
+
+    color:rgb(15, 174, 223);
+    margin-bottom: 28px;
+   
+    
+}
+#imag1{
+
+    width: 90%;
+    margin-left:-18px;
+    height: 300px;
+
+}
+
+#imag2{
+
+    width: 40%;
+    margin-left:40%;
+    height: 400px;
+
+}
+
+
+
+.parag{
+
+    font-size:smaller
+}
+#subtitle{
+margin-right: 173px;
+font-weight:700;
+
+
+}
+
+#hideValuesOnSelect {
+    display: none;
+ }
+ .parag2{
+margin-right:-20%;
+
+
+ }
+
